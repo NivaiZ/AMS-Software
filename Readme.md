@@ -1,6 +1,6 @@
 ## Тестовое задание для AMS SOFTWARE
 
-[Демо проекта](https://nivaiz.github.io/AMS SOFTWARE/build/index.html)
+[Демо проекта](https://nivaiz.github.io/AMS.SOFTWARE/build/index.html)
 
 Вёрстка: [Илья Галятдинов](https://github.com/NivaiZ/)
 
