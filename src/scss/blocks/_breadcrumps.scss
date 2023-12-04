@@ -1,0 +1,32 @@
+.breadcrumps__list {
+    display: flex;
+}
+
+.breadcrumps__item {
+    margin-right: 8px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.breadcrumps__svg {
+    width: 9px;
+    height: 9px;
+}
+
+.breadcrumps__link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-decoration: none;
+    color:var(--text-color);
+}
+
+.breadcrumps__link--active {
+    opacity: 0.6;
+}
+
+.breadcrumps__list {
+    padding-bottom: 45px;
+}

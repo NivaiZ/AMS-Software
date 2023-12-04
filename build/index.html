@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Тестовое задание для AMS Software">
+	<meta name="keywords" content="AMS Software">
+	<title>Тестовое задание для AMS Software</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+	<link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+	<header class="header menu">
+    <nav class="menu__nav menu__nav--flex container">
+        <ul class="menu__left">
+
+            <li class="menu__item">
+                <a class="menu__link" href="/">
+                    <svg class="menu__svg">
+                        <use xlink:href="./img/sprite.svg#icon__logo"></use>
+                    </svg>
+                </a>
+            </li>
+
+            <li class="menu__item">
+                <div class="menu__text">Мой Дом <span class="menu__text menu__text--gold">3D</span></div>
+            </li>
+        </ul>
+        <div class="menu__wrapper">
+            <ul class="menu__list menu__list--flex">
+
+                <li class="menu__item">
+                    <a class="menu__link" href="/" aria-label="Начало работы">Начало работы</a>
+                </li>
+
+                <li class="menu__item">
+                    <a class="menu__link" href="/" aria-label="Гид по строительству и дизайну">Гид по строительству и
+                        дизайну</a>
+                </li>
+
+                <li class="menu__item">
+                    <a class="menu__link menu__link--flex" href="/" aria-label="Поддержка">Поддержка
+                        <svg class="menu__icon" width="17" height="20">
+                            <use xlink:href="./img/sprite.svg#icon__favorite"></use>
+                        </svg>
+                    </a>
+                </li>
+
+            </ul>
+
+            <ul class="menu__list menu__list--grid">
+
+                <li class="menu__item">
+                    <a class="menu__action menu__action--blue" href="/" aria-label="Скачать">
+                        <span class="menu__sign">Скачать</span>
+
+                        <img class="menu__image" src="img/icon/icon__download.svg" alt="иконка загрузки">
+                    </a>
+                </li>
+
+                <li class="menu__item">
+                    <a class="menu__action menu__action--transparent" href="/" aria-label="Купить">
+                        <span class="menu__sign">Купить</span>
+                        <img class="menu__image" src="img/icon/icon__buy.svg" alt="иконка корзины">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+	<main class="main">
+		<section class="general general__flex">
+    <div class="general__inner container">
+        <div class="general__wrapper">
+            <div class="breadcrumps">
+                <ul class="breadcrumps__list">
+                    <li class="breadcrumps__item">
+                        <a class="breadcrumps__link breadcrumps__link--active" href="/" aria-label="Главная">Главная</a>
+                    </li>
+
+                    <li class="breadcrumps__item">
+                        <svg class="breadcrumps__svg">
+                            <use xlink:href="./img/sprite.svg#icon__separator"></use>
+                        </svg>
+                    </li>
+
+                    <li class="breadcrumps__item">
+                        <a class="breadcrumps__link" aria-label="Хлебные крошки">Как выбрать отделку фасада для
+                            частного дома</a>
+                    </li>
+                </ul>
+            </div>
+
+            <ul class="heading">
+                <li class="heading__item">
+                    <h1 class="heading__h1">Как выбрать отделку
+                        фасада для частного дома</h1>
+                </li>
+
+                <li class="heading__item">
+                    <p class="heading__text">Lorem ipsum dolor sit amet consectetur. Turpis risus lorem
+                        id faucibus convallis ut. Vel in nunc lacus sagittis ac at varius</p>
+
+                </li>
+            </ul>
+
+            <ul class="general__list general__list--flex">
+                <li class="general__item">
+                    <img class="general__image" src="img/avatar.png" alt="аватар пользователя">
+                </li>
+
+                <li class="general__item general__item--flex">
+                    <span class="general__name">Арсений Даниленко</span>
+                    <span class="general__author">Автор статьи</span>
+                </li>
+
+            </ul>
+
+        </div>
+
+        <div class="general__right">
+            <!-- <span class="general__picture"></span> -->
+            <img class="general__image" src="img/home.png" alt="Изображение дома">
+        </div>
+    </div>
+</section>
+		<section class="demonstration">
+    <div class="demonstration__wrapper">
+
+        <div class="demonstration__slider swiper">
+
+            <ul class="demonstration__list swiper-wrapper">
+                <li class="demonstration__item swiper-slide">
+                    <figure class="demonstration__figure">
+                        <img class="demonstration__image" src="img/slide__1.png" alt="Первый слайд">
+                    </figure>
+
+                </li>
+
+                <li class="demonstration__item swiper-slide">
+                    <figure class="demonstration__figure">
+                        <img class="demonstration__image" src="img/slide__1.png" alt="Первый слайд">
+                    </figure>
+                </li>
+            </ul>
+            <div class="demonstration__pagination swiper-pagination"></div>
+
+        </div>
+        <ul class="demonstration__right">
+
+            <li class="demonstration__item">
+                <p class="demonstration__text">Lorem ipsum dolor sit amet consectetur. Viverra nulla metus id sem.
+                    Dictum consectetur et nec pretium est nisi. Fusce quis ultrices neque aliquet eu amet. Tincidunt
+                    condimentum lacinia tincilesuada vel sodales lobortis convallis auctor. At sit fames enim facilisis
+                    sem. Gravida elit placerat egestas tempor.</p>
+            </li>
+
+            <li class="demonstration__item demonstration__item--flex menu">
+                <a class="menu__action menu__action--blue" href="/" aria-label="Скачать">
+                    <span class="menu__sign">Скачать бесплатно</span>
+                    <img class="menu__image" src="img/icon/icon__download.svg" alt="иконка загрузки">
+                </a>
+                <div class="menu__description">Для <svg class="menu__svg">
+                        <use xlink:href="./img/sprite.svg#icon__windows"></use>
+                    </svg>Windows 7, 8, 10, 11</div>
+            </li>
+        </ul>
+    </div>
+
+</section>
+		<section class="benefits container">
+    <div class="benefits__inner">
+
+        <div class="heading">
+            <h2 class="heading__h2">Enim tincidunt interdum ipsum elementum</h2>
+        </div>
+
+        <div class="benefits__video">
+            <a class="benefits__link" href="https://www.youtube.com/watch?v=jfKfPfyJRdk"
+                aria-label="Модальное окно с видео" data-fancybox="video-gallery">
+                <img class="benefits__image" src="img/cover__img.png" alt="Видео">
+                <svg class="benefits__svg">
+                    <use xlink:href="./img/sprite.svg#icon__play"></use>
+                </svg>
+            </a>
+        </div>
+
+        <ul class="benefits__list">
+            <li class="benefits__item benefits__item--margin">
+                <p class="benefits__text">
+                    Lorem ipsum dolor sit amet consectetur. Viverra nulla metus id sem. Dictum consectetur et nec
+                    pretium est nisi. Fusce quis ultrices neque aliquet eu amet. Tincidunt condimentum lacinia tincidunt
+                    vivamus nunc ut quis elementum sed. Malesuada vel sodales lobortis convallis auctor.
+                </p>
+            </li>
+
+            <li class="benefits__item benefits__item--marker">
+                <svg class="benefits__marker">
+                    <use xlink:href="./img/sprite.svg#icon__marker"></use>
+                </svg>
+                <p class="benefits__text">Lorem ipsum dolor sit amet consectetur. Viverra nulla metus id sem. Tincidunt
+                    condimentum lacinia
+                    tincidunt</p>
+
+            </li>
+
+            <li class="benefits__item benefits__item--marker">
+                <svg class="benefits__marker">
+                    <use xlink:href="./img/sprite.svg#icon__marker"></use>
+                </svg>
+                <p class="benefits__text">Dictum consectetur et nec pretium est nisi. Fusce quis ultrices neque neque
+                    aliquet eu amet.</p>
+
+            </li>
+
+            <li class="benefits__item benefits__item--marker">
+                <svg class="benefits__marker">
+                    <use xlink:href="./img/sprite.svg#icon__marker"></use>
+                </svg>
+                <p class="benefits__text">Fusce quis ultrices neque aliquet eu amet. Gravida elit placerat egestas.</p>
+
+            </li>
+
+            <li class="benefits__item benefits__item--marker">
+                <svg class="benefits__marker">
+                    <use xlink:href="./img/sprite.svg#icon__marker"></use>
+                </svg>
+                <p class="benefits__text"> At sit fames enim facilisis sem. Gravida elit placerat egestas tempor. Enim
+                    tincidunt interdum ipsum
+                    elementum</p>
+
+            </li>
+        </ul>
+    </div>
+</section>
+		<section class="accordion">
+    <div class="accordion__inner">
+        <div class="accordion__wrapper heading">
+            <h3 class="heading__h3">Вопрос - Ответ </h3>
+        </div>
+
+        <ul class="accordion__list">
+            <li class="accordion__item">
+                <strong class="accordion__strong">Lorem ipsum dolor sit amet consectetur. Viverra nulla metus id sem?
+                    <button class="accordion__circle accordion__circle--plus" type="button" aria-label="Открытие списка" data-accordion="button"></button>
+                </strong>
+                <p class="accordion__text accordion__text--overflow" data-list="accordion">
+                    Lorem ipsum dolor sit amet consectetur. Viverra nulla metus id sem. Dictum consectetur et nec
+                    pretium est nisi. Fusce quis ultrices neque aliquet eu amet. Tincidunt condimentum lacinia tincidunt
+                    vivamus nunc ut quis elementum sed. Dictum consectetur et nec pretium est nisi. Fusce quis ultrices
+                    neque aliquet eu amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur. Viverra
+                    nulla metus id sem. Dictum consectetur et nec pretium est nisi. Fusce quis ultrices neque aliquet eu
+                    amet. Tincidunt condimentum lacinia tincidunt vivamus nunc ut quis elementum sed. Dictum consectetur
+                    et nec pretium est nisi. Fusce quis ultrices neque aliquet eu amet. Lorem ipsum dolor sit amet
+                </p>
+            </li>
+
+            <li class="accordion__item">
+                <strong class="accordion__strong">Lorem ipsum dolor sit amet consectetur. Viverra nulla metus id sem?
+                    <button class="accordion__circle accordion__circle--plus" type="button" aria-label="Открытие списка" data-accordion="button"></button>
+                </strong>
+                <p class="accordion__text accordion__text--overflow" data-list="accordion">
+                    Lorem ipsum dolor sit amet consectetur. Viverra nulla metus id sem. Dictum consectetur et nec
+                    pretium est nisi. Fusce quis ultrices neque aliquet eu amet. Tincidunt condimentum lacinia tincidunt
+                    vivamus nunc ut quis elementum sed. Dictum consectetur et nec pretium est nisi. Fusce quis ultrices
+                    neque aliquet eu amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur. Viverra
+                    nulla metus id sem. Dictum consectetur et nec pretium est nisi. Fusce quis ultrices neque aliquet eu
+                    amet. Tincidunt condimentum lacinia tincidunt vivamus nunc ut quis elementum sed. Dictum consectetur
+                    et nec pretium est nisi. Fusce quis ultrices neque aliquet eu amet. Lorem ipsum dolor sit amet
+                </p>
+            </li>
+
+            <li class="accordion__item">
+                <strong class="accordion__strong">Lorem ipsum dolor sit amet consectetur. Viverra nulla metus id sem?
+                    <button class="accordion__circle accordion__circle--plus" type="button" data-accordion="button" aria-label="Открытие списка"></button>
+                </strong>
+                <p class="accordion__text accordion__text--overflow" data-list="accordion">
+                    Lorem ipsum dolor sit amet consectetur. Viverra nulla metus id sem. Dictum consectetur et nec
+                    pretium est nisi. Fusce quis ultrices neque aliquet eu amet. Tincidunt condimentum lacinia tincidunt
+                    vivamus nunc ut quis elementum sed. Dictum consectetur et nec pretium est nisi. Fusce quis ultrices
+                    neque aliquet eu amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur. Viverra
+                    nulla metus id sem. Dictum consectetur et nec pretium est nisi. Fusce quis ultrices neque aliquet eu
+                    amet. Tincidunt condimentum lacinia tincidunt vivamus nunc ut quis elementum sed. Dictum consectetur
+                    et nec pretium est nisi. Fusce quis ultrices neque aliquet eu amet. Lorem ipsum dolor sit amet
+                </p>
+            </li>
+        </ul>
+    </div>
+</section>
+	</main>
+	<footer class="footer">
+    <div class="footer__wrapper menu container">
+        <nav class="menu__nav menu__nav--flex">
+            <ul class="menu__left">
+
+                <li class="menu__item">
+                    <a class="menu__link" href="/">
+                        <svg class="menu__svg">
+                            <use xlink:href="./img/sprite.svg#icon__logo"></use>
+                        </svg>
+                    </a>
+                </li>
+
+                <li class="menu__item">
+                    <div class="menu__text">Мой Дом <span class="menu__text menu__text--gold">3D</span></div>
+                </li>
+            </ul>
+
+            <div class="menu__wrapper">
+
+                <ul class="menu__list menu__list--flex">
+
+                    <li class="menu__item">
+                        <a class="menu__link" href="/" aria-label="Начало работы">Инструкции по работе с программой</a>
+                    </li>
+
+                    <li class="menu__item">
+                        <a class="menu__link" href="/" aria-label="Гид по строительству и дизайну">Рейтинг программ для планировки дома</a>
+                    </li>
+
+                    
+                </ul>
+                
+                <ul class="menu__list menu__list--flex">
+
+                    <li class="menu__item">
+                        <a class="menu__link menu__link--flex" href="/" aria-label="Поддержка">Скачать бесплатно</a>
+                    </li>
+
+                    <li class="menu__item">
+                        <a class="menu__link menu__link--flex" href="/" aria-label="Поддержка">Цены и лицензии</a>
+                    </li>
+
+                </ul>
+
+                <ul class="menu__list menu__list--flex">
+
+                    <li class="menu__item">
+                        <a class="menu__link menu__link--flex" href="/" aria-label="Поддержка">Контакты</a>
+                    </li>
+
+                    <li class="menu__item">
+                        <a class="menu__link menu__link--flex" href="/" aria-label="Поддержка">Техническая поддержка</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </nav>
+        <div class="footer__box">
+            <p class="footer__copyright">© Мой Дом 3D 2023 Копирование запрещено</p>
+        </div>
+    </div>
+</footer>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+	<script src="./js/index.bundle.js"></script>
+</body>
+
+</html>

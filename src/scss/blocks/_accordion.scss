@@ -1,0 +1,101 @@
+.accordion__inner {
+    max-width: 1010px;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 0 0 70px;
+}
+
+.accordion__strong {
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28.6px;
+}
+
+.accordion__item {
+    margin-top: 40px;
+    max-width: 970px;
+}
+
+.accordion__circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 26px;
+    height: 26px;
+    background-color: var(--basic-gray);
+    border-radius: 50%;
+}
+
+.accordion__minus {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid black;
+    height: 12px;
+    transform: rotate(90deg);
+}
+
+.accordion__circle--minus {
+    &::before {
+        content: "";
+        position: absolute;
+        border: 1px solid black;
+        height: 12px;
+        transform: rotate(90deg);
+    }
+}
+
+.accordion__circle--plus {
+    &::before {
+        content: "";
+        position: absolute;
+        border-top: 1px solid black;
+        width: 12px;
+        transform: rotate(90deg);
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        border: 1px solid black;
+        height: 12px;
+        transform: rotate(90deg);
+    }
+}
+
+.accordion__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.accordion__text {
+    margin-top: 20px;
+}
+
+.accordion__text--overflow {
+    height: 89px;
+    overflow: hidden;
+    position: relative;
+
+    &::after {
+        content: '';
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFF 100%);
+        height: 89px;
+        width: 100%;
+        display: block;
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+.accordion__visible {
+    height: 162px;
+
+    &::after {
+        content: none;
+    }
+}
