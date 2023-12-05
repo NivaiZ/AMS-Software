@@ -27,6 +27,11 @@
     height: 26px;
     background-color: var(--basic-gray);
     border-radius: 50%;
+
+    &:hover {
+        transition: opacity 0.5s ease;
+        opacity: 0.5;
+    }
 }
 
 .accordion__minus {
